@@ -256,7 +256,8 @@ body {
 }
 
 .section-about__photo {
-    max-width: 100%;
+    width: 100%;
+    max-width: 790px;
     border-top: 3px #ec008c solid;
 }
 
@@ -337,7 +338,8 @@ body {
 }
 
 .section-concerts__photo {
-    max-width: 100%;
+    width: 100%;
+    max-width: 360px;
     border-bottom: 3px #ec008c solid;
 }
 
@@ -418,7 +420,6 @@ body {
 @media (max-width: 1024px) { 
     .section-gallery__container{
         justify-content: center;
-        max-width: 800px;
     }
 }
 
@@ -432,15 +433,21 @@ body {
     }
 }
 
+@media (max-width: 768px) { 
+    .section-gallery__item {
+        margin: 0 0 30px 0;
+    }
+}
+
 .section-gallery__picture {
+    width: 100%;
     max-width: 300px;
-    max-height: 200px;
     border-top: 3px #ec008c solid;
 }
 
-@media (max-width: 320px) { 
+@media (max-width: 768px) { 
     .section-gallery__picture {
-        max-width: 270px;
+        max-width: 400px;
     }
 }
 
@@ -464,7 +471,8 @@ body {
 }
 
 .section-contact__photo {
-    max-width: 100%;
+    width: 100%;
+    max-width: 465px;
     margin: 0 80px 0 0;
 }
 
