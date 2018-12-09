@@ -19,9 +19,7 @@
 
     <header class="page-header">
         <h2 class="screen-reader-only">Logo and navigation</h2>
-        <a href="#section-main">
-            <img class="page-header__logo-image" src="img/logo.png" alt="6BM main logo">
-        </a>
+        <img class="page-header__logo-image" src="img/logo.png" alt="6BM main logo">
         <nav class="page-navigation">
             <label class="page-navigation__label" for="toggle">&#9776;</label>
             <input class="page-navigation__input" type="checkbox" id="toggle" />
@@ -61,25 +59,33 @@
                 <div class="section-main__column">
                     <div class="section-main__content-item">
                         <img class="section-main__image" src="img/band-member01.png" alt="Kamil Zgondek photo">
-                        <h3 class="section-main__artist-name main-subtitle-font">Kamil Zgondek</h3>
-                        <p class="section-main__description second-content-font">Keys</p>
+                        <div class="section-main__image-content">
+                            <h3 class="section-main__artist-name main-subtitle-font">Kamil Zgondek</h3>
+                            <p class="section-main__description second-content-font">Keys</p>
+                        </div>
                     </div>
                     <div class="section-main__content-item">
                         <img class="section-main__image" src="img/band-member02.png" alt="Daniel Cajzer photo">
-                        <h3 class="section-main__artist-name main-subtitle-font">Łukasz Furman</h3>
-                        <p class="section-main__description second-content-font">Vocals</p>
+                        <div class="section-main__image-content">
+                            <h3 class="section-main__artist-name main-subtitle-font">Łukasz Furman</h3>
+                            <p class="section-main__description second-content-font">Vocals</p>
+                        </div>
                     </div>
                 </div>
                 <div class="section-main__column">
                     <div class="section-main__content-item">
                         <img class="section-main__image" src="img/band-member03.png" alt="Kamil Majewski photo">
-                        <h3 class="section-main__artist-name main-subtitle-font">Kamil Majewski</h3>
-                        <p class="section-main__description second-content-font">Drums</p>
+                        <div class="section-main__image-content">
+                            <h3 class="section-main__artist-name main-subtitle-font">Kamil Majewski</h3>
+                            <p class="section-main__description second-content-font">Drums</p>
+                        </div>
                     </div>
                     <div class="section-main__content-item">
                         <img class="section-main__image" src="img/band-member04.png" alt="Łukasz Furman photo">
-                        <h3 class="section-main__artist-name main-subtitle-font">Daniel Cajzer</h3>
-                        <p class="section-main__description second-content-font">Bass guitar</p>
+                        <div class="section-main__image-content">
+                            <h3 class="section-main__artist-name main-subtitle-font">Daniel Cajzer</h3>
+                            <p class="section-main__description second-content-font">Bass guitar</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -157,7 +163,7 @@
                             <p class="section-concerts_description second-content-font">Poznań, klub AAA</p>
                         </div>
                         <div class="section-concerts__sidebar-right">
-                            <button class="section-concerts__button btn button-font" type="submit">buy ticket</button>
+                            <button class="section-concerts__button btn button-font" type="submit" disabled>buy ticket</button>
                         </div>
                     </div>
                 </article>
@@ -258,16 +264,16 @@
         <h2 class="screen-reader-only">Social media links</h2>
         <ul class="page-social-icons">
             <li class="page-social-icons__item">
-                <a class="page-social-icons__item-content facebook-svg-icon" href="https://www.facebook.com/6BMband/">Facebook</a>
+                <a class="page-social-icons__item-content svg-icon svg-icon--facebook" href="https://www.facebook.com/6BMband/">Facebook</a>
             </li>
             <li class="page-social-icons__item">
-                <a class="page-social-icons__item-content instagram-svg-icon" href="https://www.instagram.com/6bmband/?hl=pl">Instagram</a>
+                <a class="page-social-icons__item-content svg-icon svg-icon--instagram" href="https://www.instagram.com/6bmband/?hl=pl">Instagram</a>
             </li>
             <li class="page-social-icons__item">
-                <a class="page-social-icons__item-content last-svg-icon" href="#!">Last.fm</a>
+                <a class="page-social-icons__item-content svg-icon svg-icon--lastfm" href="#!">Last.fm</a>
             </li>
             <li class="page-social-icons__item">
-                <a class="page-social-icons__item-content youtube-svg-icon" href="https://www.youtube.com/channel/UCDqm0F_UFieDt_C4TRPbepQ">Youtube</a>
+                <a class="page-social-icons__item-content svg-icon svg-icon--youtube" href="https://www.youtube.com/channel/UCDqm0F_UFieDt_C4TRPbepQ">Youtube</a>
             </li>
         </ul>
     </footer>
