@@ -65,24 +65,23 @@ body {
 .menu-font {
     font-size: 13px;
     font-weight: 600;
-    color: #ec008c;
+    color: rgb(236, 0, 140, 0.6); 
     letter-spacing: 6.7px;
     text-decoration: none;
     text-transform: uppercase;
-    opacity: 0.6;
-    transition: opacity 0.3s ease;
+    transition: color 0.3s, letter-spacing 0.3s ease;
 }
 
 .menu-font:visited {
-    opacity: 0.4;
+    color: rgb(236, 0, 140, 0.4); 
 }
 
 .menu-font:hover, .menu-font:focus {
-    opacity: 1;
+    color: rgb(236, 0, 140, 1); 
 }
 
 .menu-font:active {
-    opacity: 1;
+    color: rgb(236, 0, 140, 1); 
     letter-spacing: 6.5px;
 }
 
