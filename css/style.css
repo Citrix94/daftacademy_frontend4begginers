@@ -684,6 +684,7 @@ body {
     .section-gallery__item {
         margin: 0 15px 30px 15px;
     }
+    
     .section-gallery__picture:hover {
         transform: none;
     }
